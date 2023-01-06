@@ -1,0 +1,59 @@
+/* Add your CSS rules here */
+.table {
+  font-size: 14px;
+  color: #333;
+}
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+#file-input {
+  /* hide the "No file chosen" text */
+  color: transparent;
+}
+
+#file-input::-webkit-file-upload-button {
+  /* style the button */
+
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+form div {
+  margin: 1em 0;
+}
+
+form label {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  height: 2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+form textarea {
+  height: 5em;
+}
+
+form div div {
+  color: red;
+  font-size: 0.8em;
+} */
